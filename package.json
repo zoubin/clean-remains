@@ -1,0 +1,42 @@
+{
+  "name": "clean-remains",
+  "version": "0.0.1",
+  "description": "Remove files created in the last run but not anymore in the current one",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && tap test/*.js",
+    "cov": "tap --cov test/*.js",
+    "lint": "eslint *.js 'lib/**/*.js' test/*.js bin/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/clean-remains.git"
+  },
+  "keywords": [
+    "gulp",
+    "reduce",
+    "reduce-js",
+    "reduce-css",
+    "gulp-plugin",
+    "watch"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/zoubin/clean-remains/issues"
+  },
+  "homepage": "https://github.com/zoubin/clean-remains#readme",
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "gulp": "^3.9.1",
+    "tap": "^5.0.0"
+  },
+  "dependencies": {
+    "del": "^2.2.0",
+    "globby": "^4.0.0"
+  }
+}
