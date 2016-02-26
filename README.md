@@ -5,7 +5,7 @@
 
 Remove files created in the last run but not anymore in the current one.
 
-In development environment, build process are run once a file change detected.
+In development environment, build process runs once a file change detected.
 If a file is removed, the corresponding compiled file (like a browserify bundle) remains,
 which is redundant and should be deleted.
 
