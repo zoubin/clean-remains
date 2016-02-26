@@ -1,6 +1,6 @@
 {
   "name": "clean-remains",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Remove files created in the last run but not anymore in the current one",
   "main": "index.js",
   "scripts": {
